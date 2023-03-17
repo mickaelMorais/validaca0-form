@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1E1E1E;
+}
+.container{
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.header{
+    display: flex;
+    align-items: baseline;
+}
+.titulo{
+    font-size: 64px;
+    color: #fff;
+    height: 77px;
+}
+.main{
+    margin-top: -30px;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+.img{
+    width: 650px;
+    margin-left: -21px;
+}
+.div-form{
+    background-color: #fff;
+    height: 510px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+.login{
+    font-weight: 600;
+    font-size: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form input{
+    width: 368px;
+    height: 16px;
+    padding: 16px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(113, 128, 185, 0.32);
+}
+.svg-email{
+    position: relative;
+    bottom: 310px;
+    right: 190px;
+}
+.svg-senha{
+    position: relative;
+    bottom: 263px;
+    right: 190px;
+}
+.svg-gh{
+    position: relative;
+    bottom: 92px;
+    left: 20px;
+}
+.btn{
+    width: 435px;
+    height: 48px;
+    background-color: #7180B9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+hr{
+    height: 0;
+    width: 124px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    margin-top: 24px;
+}
+.btns{
+    margin-top: 32px;
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+.btns p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.btns button{
+    width: 244px;
+    height: 48px;
+    background-color: #7180B9;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.erro{
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 70px;
+    position: relative;
+    right: 500px;
+    bottom: 220px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    color: red;
+    display: none;
+}

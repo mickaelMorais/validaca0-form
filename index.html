@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <p class="titulo">HighSchool</p> <img src="img/ponto.svg">
+        </header>
+        <main class="main">
+            <div><img src="img/image.png" class="img"></div>
+            <div class="div-form">
+                <p class="login">Login</p>
+                <div class="form">
+                    <input type="text" class="email" placeholder="E-mail">
+                    <input type="password" class="senha" placeholder="*******">
+                    <button class="btn" type="submit" onclick="validacao()">Login</button>
+                </div>
+                <hr>
+                <div class="btns">
+                    <p>ou entre com</p>
+                    <a target="_blank" href="https://github.com/login">
+                        <button>Github</button>
+                    </a>
+                </div>
+                <img src="img/email.svg" class="svg-email">
+                <img src="img/senha.svg" class="svg-senha">
+                <img src="img/github.svg" class="svg-gh">
+            </div>
+            <div class="erro"></div>
+        </main>
+
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
